@@ -1,0 +1,21 @@
+
+body{
+    font: normal 15pt Arial;
+}
+
+header{
+    text-align: center;
+}
+
+section {
+    background: rgb(98, 170, 199);
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+.res{
+    text-align: center;
+}
+

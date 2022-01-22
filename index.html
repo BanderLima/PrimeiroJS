@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mostra Dados</h1>
+    </header>
+    <section>
+        <div class="dados">
+            <label for="pessoaVelha">Digite um nome de uma pessoa mais velha:</label>
+            <input type="text" name="pessoaVelha" id="pessoaVelha">
+            <br><br>
+            <label for="idadeVelho">Digite a idade da pessoa mais velha:</label>
+            <input type="number" name="idadeVelho" id="idadeVelho">
+            <br><br>
+            <label for="pessoaNova">Digite um nome de uma pessoa mais nova:</label>
+            <input type="text" name="pessoaNova" id="pessoaNova">
+            <br>
+            <p>Digite a idade da pessoa mais nova: <input type="number" name="idadeNovo" id="idadeNovo"></p>
+            <input type="button" value="Exibir informações e a diferença de idade" onclick="contar()">
+        </div>
+
+        <div id="res">
+            <p>Aguardando Resultado... </p>
+        </div>
+    </section>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
