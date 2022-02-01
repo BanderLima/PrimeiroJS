@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro JS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!--Link para o css-->
 </head>
 
 <body>
@@ -16,22 +16,22 @@
     <section>
         <div class="dados">
             <label for="pessoaVelha">Digite um nome de uma pessoa mais velha:</label>
-            <input type="text" name="pessoaVelha" id="pessoaVelha">
+            <input type="text" name="pessoaVelha" id="pessoaVelha"> <!--por esses ids que sao pegos pelo js-->
             <br><br>
             <label for="idadeVelho">Digite a idade da pessoa mais velha:</label>
-            <input type="number" name="idadeVelho" id="idadeVelho">
+            <input type="number" name="idadeVelho" id="idadeVelho"> 
             <br><br>
             <label for="pessoaNova">Digite um nome de uma pessoa mais nova:</label>
             <input type="text" name="pessoaNova" id="pessoaNova">
             <br>
             <p>Digite a idade da pessoa mais nova: <input type="number" name="idadeNovo" id="idadeNovo"></p>
-            <input type="button" value="Exibir informações e a diferença de idade" onclick="contar()">
+            <input type="button" value="Exibir informações e a diferença de idade" onclick="contar()"> <!--Esse é o botao quer quero a função acionada após o click-->
         </div>
          <div id="res">
             <p>Aguardando Resultado... </p>
         </div>
     </section>
-    <script src="javascript.js"></script>
+    <script src="javascript.js"></script> <!--Link para o js-->
 </body>
 
 </html>
